@@ -30,6 +30,8 @@ for (let i = 0; i < divs.length; i++) {
 }
 
 function bubble(e) {
+  //stop! that! propagation!
+  e.stopPropagation();
   // remember all of those fancy DOM node properties?
   // we're making use of them to get the number
   // in each div here!
