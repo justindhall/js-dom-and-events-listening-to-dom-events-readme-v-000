@@ -10,17 +10,18 @@
      }
     </style>
   </head>
-  
-  <script>
-    const main = document.getElementById('main');
-    
-    main.addEventListener('click', function(event){
-    alert('I was clicked!');
-    });
-  </script>
 
   <body>
-    <main id="main">My ID is "main"!</main>
+    <main id="main">My ID is "main"!
+      <script>
+        const main = document.getElementById('main');
+        
+        main.addEventListener('click', function(event){
+        alert('I was clicked!');
+        });
+      </script>
+    
+    </main>
 
     <br />
 
